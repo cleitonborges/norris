@@ -1,7 +1,6 @@
 <html>
     <head>
         <title>Welcome to Grails</title>
-        	<gui:resources components="expandablePanel"/>
 		<meta name="layout" content="main" />
 		<style type="text/css" media="screen">
 
@@ -51,7 +50,7 @@
 			}
 		</style>
     </head>
-    <body >
+    <body>
 		<div id="nav">
 			<div class="homePagePanel">
 				<div class="panelTop">
@@ -99,15 +98,7 @@
 	                    <li class="controller"><g:link controller="${c.logicalPropertyName}">${c.fullName}</g:link></li>
 	              </g:each>
 	            </ul>
-	        </div>	        
-	        
+	        </div>
 		</div>
-		
-		<div class="yui-skin-sam">
-		<gui:expandablePanel title="This panel is already expanded" expanded="true">
-    I am expanded.  Close me.
-</gui:expandablePanel>
-		</div>
-		
     </body>
 </html>
